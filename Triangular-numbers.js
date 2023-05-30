@@ -13,3 +13,8 @@ Example:
 */
 
 
+// Solution
+
+function triangular( n ) {
+  return (n > 0) ? ((n * n) + n) / 2 : 0;
+}
